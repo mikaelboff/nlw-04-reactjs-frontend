@@ -6,7 +6,7 @@
     color: var(--title);
 }
 
-.countDownContainer>div {
+.countDownContainer > div {
     flex: 1;
 
     display: flex;
@@ -20,19 +20,19 @@
     text-align: center;
 }
 
-.countDownContainer>div>span {
+.countDownContainer > div > span {
     flex: 1;
 }
 
-.countDownContainer>div>span:first-child {
+.countDownContainer > div > span:first-child {
     border-right: 1px solid #f0f1f3;
 }
 
-.countDownContainer>div>span:last-child {
+.countDownContainer > div > span:last-child {
     border-left: 1px solid #f0f1f3;
 }
 
-.countDownContainer>span {
+.countDownContainer > span {
     font-size: 6.25rem;
     margin: 0 0.5rem;
 }
